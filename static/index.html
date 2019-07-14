@@ -3,37 +3,37 @@
 <html>
 	<head>
 		<title>HCI Project Portfolio</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 			<style>
 				body{
 					font-family:courier New;
-					background-image:  url("images/picture.png");
+					background-image:  url("images/nature.jpg");
 					text-align:  center;
 			
 					}
-			
-					
-				
-
 			</style>
-	
-	</head>
+		</head>
+		
 
-<body>
+		<body>
+		<!-- Page content -->
+			<header>
+			<div class="main">
+			<ul>
+			
+			<li><a href ="#">Home</a><li>
+			<li><a href ="#">About</a><li>
+			<li><a href ="#">Gallery</a><li>
+			<li><a href ="#">Contact</a><li>
+			<ul>
 	<div>
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<div>
-			<h1>All about Myself</h1>
-
-				<h3>Personal Information</h3>
-				
+		</header>
+					
 		<div/>
-					<hr color="lightgray"size="2px"/>		
-					<br/>
-	
+					
+	<!-- About -->
 		<img  src="images/picture1.1.jpg" width ="170px"alt="Profile Picture"/>
 		<div>
 		
@@ -46,49 +46,87 @@
 			<b>Organization:</b>JISSA</br>
 		
 		<div/>
-				<hr color="lightgray"size="2px"/>		
+		<i>
+						
 				<br/>
-				
+				<br/>
+		<!-- Gallery -->		
 		<h3>Bestie</h3>
 		<div/>
 			<div id="">
-				<img src="images/bestie.jpg"  height="220px" width = "300px">
-				<img src="images/bestie1.jpg" height="220px" width = "300px">
-				<img src="images/bestie2.jpg" height="220px" width = "300px">
-				<img src="images/bestie3.jpg" height="220px" width = "300px">
-		
-		
-		
-		
-		<div/>
-				<hr color="lightgray"size="2px"/>		
+				<img src="images/bestie.jpg" alt="bestie" class="w3-image"height="220px" width = "300px">
+				<img src="images/bestie1.jpg" height="220px" alt="bestie1" class="w3-image w3-margin-top" width = "300px">
+				<img src="images/bestie2.jpg" height="220px"alt="bestie2" class="w3-image w3-margin-top"width = "300px">
+				<img src="images/bestie3.jpg" height="220px"alt="bestie3" class="w3-image w3-margin-top"width = "300px">
+				
 				<br/>
-		
+		<!-- Likes and Favorite-->
 		<h3>Music</h3>		
 				<iframe width="340" height="260" src="https://www.youtube.com/embed/8v_4O44sfjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<iframe width="340" height="260" src="https://www.youtube.com/embed/ShZ978fBl6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<iframe width="340" height="260" src="https://www.youtube.com/embed/K3VL59Q-CA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		
 		<div/>
-				<hr color="lightgray"size="2px"/>		
+					
 				<br/>		
 				
 		<h3>Likes</h3>
 		<h4>Travel</h4>
-				<img src="images/travel01.jpg" alt="Lorem Pixel image" width = "350px"/>
+				<img src="images/travel01.jpg" alt="Lorem Pixel image" width = "400px"/>
 		<div/>
 		<h4>Food- Sinigang & Adobo</h4>
 			<div/>
 			<div id="">
-				<img src="images/sinigang01.jpg" alt="Sinigang"  height="220px" width = "350px">
-				<img src="images/adobo01.jpg" alt="Adobo" height="220px" width = "350px">
+				<img src="images/sinigang01.jpg" alt="Sinigang"  height="230px" width = "320px">
+				<img src="images/adobo01.jpg" alt="Adobo" height="230px" width = "320px">
 		<h4>TV Show</h4>
 			</div>
 			<div id="">
-				<img src="images/KadenangGinto.jpg" alt="Lorem Pixel image"height="220px" width = "350px">
+				<img src="images/KadenangGinto.jpg" alt="Lorem Pixel image"height="230px" width = "320px">
+				
+			</div>
+			<div/>
+			<br/>
+			<br/>
+			<!--Contact-->
+			<b/>
 			
+		<div class="w3-container w3-padding-large w3-grey">
+			<h4 id="contact"><b>Contact Me</b></h4>
+		<div class="w3-row-padding w3-center w3-padding-24" style="margin:5 -20px">
+		<div class="w3-third w3-dark-grey">
+			<p><i class="fa fa-envelope w3-xxxlarge w3-text-light-grey"></i></p>
+			<p>vltimo@student.apc.edu.ph</p>
+		</div>
+		<div class="w3-third w3-teal">
+			<p><i class="fa fa-map-marker w3-xxxlarge w3-text-light-grey"></i></p>
+			<p>Taguig City</p>
+		</div>
+		<div class="w3-third w3-dark-grey">
+			<p><i class="fa fa-phone w3-xxxlarge w3-text-light-grey"></i></p>
+			<p>09474991713</p>
+		</div>
+		</div>
+			<hr class="w3-opacity">
+			<form action="/action_page.php" target="_blank">
+		<div class="w3-section">
+			<label>Name</label>
+			<input class="w3-input w3-border" type="text" name="Name" required>
+		</div>
+		<div class="w3-section">
+			<label>Email</label>
+			<input class="w3-input w3-border" type="text" name="Email" required>
+		</div>
+			<div class="w3-section">
+			<label>Message</label>
+			<input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+			<button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
 			
-		
+      
+    </form>
+  </div>
+
 	</div>
 </body>
 </html>
