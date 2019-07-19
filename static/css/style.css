@@ -5,8 +5,8 @@
 }
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)) url(images/nature.jpg);
-	height: 50vh;
-	margin: 25px;
+	height: 100vh;
+	margin: 50px;
 	background-size:cover;
 	background-position:center;
 	
